@@ -1,0 +1,53 @@
+Tabelas Notas Fiscais.
+
+Clientes.dbf
+
+CODIGO (C,6)
+
+NOME (C,50)
+
+ENDERECO (C,60)
+
+CIDADE (C,30)
+
+ESTADO (C,2)
+
+CPF (C,14)
+
+TELEFONE (C,15)
+
+Produtos.dbf
+
+CODIGO (C,10)
+
+DESCRICAO (C,50)
+
+PRECO (N,10,2)
+
+Notas.dbf
+
+NUMERO (N,6)
+
+DATA (D)
+
+COD_CLIENTE (C,6)
+
+NOME_CLIENTE (C,50)
+
+TOTAL (N,12,2)
+
+Itens_Nota.dbf
+
+NUMERO_NOTA (N,6)
+
+ITEM (N,3)
+
+COD_PRODUTO (C,10)
+
+DESCRICAO (C,50)
+
+QUANTIDADE (N,5)
+
+PRECO (N,10,2)
+
+TOTAL (N,12,2)
