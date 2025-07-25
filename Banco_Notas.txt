@@ -51,3 +51,49 @@ QUANTIDADE (N,5)
 PRECO (N,10,2)
 
 TOTAL (N,12,2)
+
+
+Banco Locadoras
+Clientes.dbf
+
+NOME (C,50)
+
+ENDERECO (C,60)
+
+CIDADE (C,30)
+
+ESTADO (C,2)
+
+CPF (C,11)
+
+TELEFONE (C,15)
+
+Veiculos.dbf
+
+MODELO (C,30)
+
+MARCA (C,20)
+
+PLACA (C,8)
+
+COR (C,15)
+
+ANO (N,4)
+
+VALOR_DIARIA (N,10,2)
+
+DISPONIVEL (L)
+
+Locacoes.dbf (para implementar depois)
+
+COD_CLIENTE (N,6)
+
+COD_VEICULO (N,6)
+
+DATA_LOCACAO (D)
+
+DATA_DEVOLUCAO (D)
+
+VALOR_TOTAL (N,12,2)
+
+STATUS (C,1) // "A"=Ativa, "F"=Finalizada
